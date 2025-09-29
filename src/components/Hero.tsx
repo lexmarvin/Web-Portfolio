@@ -28,7 +28,7 @@ const ModernHero = () => {
               <div className="text-chunky text-5xl md:text-7xl lg:text-8xl text-gradient-primary transform -rotate-2">
                 MARVIN
               </div>
-              <div className="text-chunky text-4xl md:text-6xl lg:text-7xl text-gradient-secondary transform rotate-1">
+              <div className="text-chunky text-4xl md:text-6xl lg:text-7xl text-gradient-secondary transform rotate-2">
                 GUSTILO
               </div>
             </motion.div>
@@ -72,6 +72,20 @@ const ModernHero = () => {
               >
                 <a href="#contact">Get in Touch</a>
               </Button>
+
+              <Button
+                asChild
+                variant="chunky"
+              >
+                <a 
+                  href="/Gustilo_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer" 
+                >
+                  Resume
+                </a>
+              </Button>
+              
             </motion.div>
           </div>
 
