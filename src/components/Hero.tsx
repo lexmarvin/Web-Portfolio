@@ -49,8 +49,7 @@ const ModernHero = () => {
                 />
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Creating amazing digital experiences with bold design and cutting-edge technology. 
-                Let's build something extraordinary together!
+                I code things. Sometimes they even work. Let’s call it "innovation."
               </p>
             </motion.div>
 
