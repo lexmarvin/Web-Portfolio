@@ -25,7 +25,7 @@ const ModernProjects = () => {
       year: "2025",
       status: "Open Source",
       color: "secondary",
-      live: "https://lexmarvin.github.io/TagaType",
+      live: "https://tagatype.vercel.app/",
       github: "https://github.com/lexmarvin/TagaType",
       image: "/TagaType.jpg"  
     }
@@ -104,7 +104,7 @@ const ModernProjects = () => {
                 {project.live && (
                   project.live.startsWith("http") ? (
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      {/* <Button variant="chunky">View Project</Button> */}
+                      <Button variant="chunky">Live Demo</Button>
                     </a>
                   ) : (
                     <a href={project.live}>
