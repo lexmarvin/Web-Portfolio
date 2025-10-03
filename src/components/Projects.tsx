@@ -15,7 +15,7 @@ const ModernProjects = () => {
       live: "/fitquest",
       github: "https://github.com/lexmarvin/FitQuestAlpha3",
       image: "fitquest.png",
-      imageClass: "object-[center_-133px]" 
+      imageClass: "md:object-[center_-133px] object-center"
     },
     {
       title: "TAGATYPE", 
@@ -27,7 +27,8 @@ const ModernProjects = () => {
       color: "secondary",
       live: "https://tagatype.vercel.app/",
       github: "https://github.com/lexmarvin/TagaType",
-      image: "/TagaType.jpg"  
+      image: "/TagaType.jpg",
+      imageClass: "object-center",   
     }
   ];
 
@@ -134,7 +135,9 @@ const ModernProjects = () => {
                     <img 
                       src={project.image}
                       alt={project.title}
-                      className={`w-full h-64 object-cover rounded-xl shadow-lg ${project.imageClass}`}
+                      className={
+                        `w-full h-64 object-cover rounded-xl shadow-lg ${project.imageClass ?? 'object-center'}`
+                      }
                     />
                   </div>
                   <div className={`text-display text-4xl text-gradient-${project.color} mb-4`}>
