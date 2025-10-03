@@ -61,7 +61,7 @@ const ModernHero = () => {
             >
               <Button
                 asChild
-                variant="chunky"
+                variant="chunky-outline"
               >
                 <a href="#projects">View My Work</a>
               </Button>
@@ -75,7 +75,7 @@ const ModernHero = () => {
 
               <Button
                 asChild
-                variant="chunky"
+                variant="chunky-outline"
               >
                 <a 
                   href="/Gustilo_Resume.pdf"
