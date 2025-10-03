@@ -78,6 +78,9 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --nav-h: 4rem;          /* mobile */
+
   }
 
   .dark {
@@ -116,6 +119,12 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --nav-h: 5rem;        /* desktop */
   }
 }
 

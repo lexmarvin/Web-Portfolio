@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 
 const ModernHero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-[var(--nav-h)]" >
+      
       {/* Decorative shapes */}
       <div className="absolute top-20 right-20 w-80 h-80 shape-circle" />
       <div className="absolute bottom-20 left-20 w-60 h-60 shape-square" />
